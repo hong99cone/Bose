@@ -8,9 +8,13 @@
 💡 사용툴 : Figma, Photoshop, Illustrator, Vscode   
 💡 반응형 : PC형, Mobile형    
    
-(mockup img)   
    
- HTML, CSS, Vanila JS
+   
+  <img alt="HTML5" src ="https://img.shields.io/badge/HTML-E34F26.svg?&style=for-the-badge&logo=HTML5&logoColor=white"/> <img alt="CSS3" src ="https://img.shields.io/badge/CSS-1572B6.svg?&style=for-the-badge&logo=CSS3&logoColor=white"/> <img alt="JS" src ="https://img.shields.io/badge/JavaScript-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=white"/>  
+(mockup img)   
+ 
+ 
+
 
 **[Website is here!](http://handlebarsjs.com/)**
 
