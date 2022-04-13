@@ -24,7 +24,7 @@
 </br>
 
 
-**<a href="http://hong99cone.github.io/Bose" target="_blank">Website is here! </a>**
+**<a href="http://hong99cone.github.io/Bose/html" target="_blank">Website is here! </a>**
 
 * * *
 </br>
