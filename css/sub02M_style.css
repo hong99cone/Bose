@@ -1,0 +1,342 @@
+@charset  'utf-8';
+
+* {
+    font-size: 12px;
+}
+
+body {
+    min-width: 100%;
+}
+
+.inner {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* navbar */
+
+.gnb {
+    display: flex;
+    justify-content: space-between;
+    padding: 0; 
+}
+
+.gnb .mobile_logo {
+    display: block;
+    margin-left: 1rem;
+}
+
+.gnb .menu {
+    display: none;
+}
+
+.gnb .menu .logo {
+    display: block;
+}
+
+.gnb .icons  {
+    margin-right: 1.25rem;
+}
+
+
+.gnb .icons .map {
+    font-size: 2rem;
+}
+
+
+/* navbar menu_toogle */
+
+.main_menu {
+    width: 100%;
+}
+
+.main_menu .main > li {
+    height: 3rem;
+}
+
+.main_menu .main > li::before {
+    display: none;
+}
+
+.main_menu .main > li ,
+.main_menu .main > li >a{
+    text-align: center;
+    font-size: var(--font-medium) ;
+}
+
+
+/* section -01*/
+.sec_01 {
+    min-height: 51rem;
+}
+
+.sec_01::before {
+    background-size: 115rem;
+    background-position: 75%;
+}
+
+.sec_01 .txt_wrapper {
+    padding: 65% 0 0;
+    width: 70%;
+    margin: 0 5%;
+}
+
+.sec_01 .txt_wrapper h1 {
+    font-size: 2.1rem;
+}
+
+.sec_01 .txt_wrapper p {
+    width: 100%;
+    font-weight: 200;
+    margin: 1.25rem 0 1.875rem;
+}
+
+
+
+/* section-02 */
+
+
+.sec_02 h1 {
+    font-size: 2.4rem;
+}
+
+.sec_02 .article {
+    width: 16.6rem;
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.sec_02 .article::-webkit-scrollbar {
+    display: none;
+}
+
+.sec_02 article {
+    flex-direction: column;
+}
+
+.sec_02 article img {
+    width: 16.6rem;
+    height: 16.6rem;
+}
+
+.sec_02 article .txt_wrapper {
+    width: 16.6rem;
+}
+
+.sec_02 article .txt_wrapper h2 {
+    font-size: 1.65rem;
+    text-align: center;
+}
+
+.sec_02 article .txt_wrapper p {
+    margin: 1.2rem 0;
+}
+
+.sec_02 article .txt_wrapper:nth-child(2n+1),
+.sec_02 article img:nth-child(2n+1) {
+    margin: 0 ;
+}
+
+.sec_02 article.line_1 .txt_wrapper,
+.sec_02 article.line_3 .txt_wrapper{
+    order: 1;
+}
+
+.sec_02 article.line_2 {
+    margin: 0 2.5rem ;
+}
+
+.sec_02 .swipe {
+    width: 16.6rem;
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-weight: 200;
+    position: relative;
+    padding: 0 1.66rem 0 0;
+    margin: 0 auto;
+}
+
+.sec_02 .swipe::after {
+    content: "";
+    border-bottom: 1px solid var(--primary-black-color);
+    border-right: 1px solid var(--primary-black-color);
+
+    height: 1.66rem;
+    width: 5rem;
+
+    transform: skewX(30deg);
+
+    top: 0;
+    right: 0.83rem;
+    position: absolute; 
+}
+
+
+/* section-03 */
+
+.sec_03 {
+    min-height: 50rem;
+    background-position: 55%;
+}
+
+.sec_03 .txt_wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sec_03 .txt_wrapper h1 {
+    font-size: 2.1rem;
+}
+
+.sec_03 .txt_wrapper p {
+    text-align: center;
+}
+
+.sec_03 .txt_wrapper p br {
+    display: none;
+}
+
+.sec_03 .txt_wrapper p:first-of-type {
+    font-size: var(--font-x-small);
+}
+
+.sec_03 .txt_wrapper p:nth-of-type(2) {
+    font-size: var(--font-xx-small);
+    text-align: center;
+}
+
+.sec_03 .btns img {
+    width: 12rem;
+}
+
+
+/* section-04 */
+.sec_04 {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.sec_04 .sleepSwiper {
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.sec_04 h2.title {
+    display: block;
+    text-transform: capitalize;
+    font-size: var(--font-xm-medium);
+    color: var(--white-color);
+    text-align: center;
+    padding: 5rem 0 0;
+}
+
+.sec_04 .sleepSwiper .article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+}
+
+.sec_04 .sleepSwiper .article img {
+    width: 24.1rem;
+    height: 15.4rem;
+    margin: 0;
+}
+
+.sec_04 .sleepSwiper .article .txt-wrapper {
+    text-align: center;
+    width: 24.1rem;
+    text-align: justify;
+}
+
+.sec_04 .sleepSwiper .article .txt-wrapper br {
+    display: none;
+}
+
+.sec_04 .sleepSwiper .article .txt-wrapper h2 {
+    display: none;
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--white-color);
+}
+
+
+/* section-05 */
+.sec_05 {
+    height: 54.1rem;
+    background-size: 91.6rem;
+    background-position: top;
+}
+
+.sec_05 .inner {
+    justify-content: flex-end;
+}
+
+.sec_05 .inbox,
+.sec_05 .product_info {
+    text-align: right;
+    margin-right: 2.5rem;
+}
+
+.sec_05 .inbox,
+.sec_05 .product_info,
+.sec_05 .battery,
+.sec_05 .bluetooth {
+    width: 45%;
+}
+
+.sec_05 .txt_line1 {
+    justify-content: center;
+    position: relative;
+}
+
+.sec_05 .txt_line1::after {
+    content: "";
+    width: 85%;
+    height: 1px;
+    background-color: var(--black-shade-05);
+    transform: rotate(90deg);
+    opacity: 1;
+
+    bottom: 0.83rem;
+    position: absolute;
+}
+
+.sec_05 .txt_line2 {
+    justify-content: center;
+    margin: 2.5rem 0 4.16rem;
+}
+
+.sec_05 p:nth-of-type(2n) {
+    margin: 0.083rem 0;
+}
+
+
+.sec_05 h3 {
+    font-size: var(--font-small);
+    text-transform: capitalize;
+}
+
+.sec_05 p {
+    font-size: var(--font-xx-small);
+    font-weight: 200;
+}
+
+
+/* footer */
+
+
+footer .inner {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .left {
+    display: none;
+}

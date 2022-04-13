@@ -1,0 +1,311 @@
+@charset 'utf-8';
+
+* {
+    font-size: 10.5px;
+}
+
+
+body {
+    min-width: 100%;
+}
+
+.inner {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+/* navbar */
+
+.gnb {
+    display: flex;
+    justify-content: space-between;
+    padding: 0; 
+}
+
+.gnb .mobile_logo {
+    display: block;
+    margin-left: 1rem;
+}
+
+.gnb .menu {
+    display: none;
+}
+
+.gnb .menu .logo {
+    display: block;
+}
+
+.gnb .icons  {
+    margin-right: 1.25rem;
+}
+
+
+.gnb .icons .map {
+    font-size: 2rem;
+}
+
+/* navbar menu_toogle */
+
+.main_menu {
+    width: 100%;
+}
+
+.main_menu .main > li {
+    height: 3rem;
+}
+
+.main_menu .main > li::before {
+    display: none;
+}
+
+.main_menu .main > li ,
+.main_menu .main > li >a{
+    text-align: center;
+    font-size: 1.8rem ;
+}
+
+
+
+/* section-01 */
+
+.sec_01_wrapper .slide_2 {
+    background-position: 48%;
+}
+
+.sec_01_wrapper .slide_3 {
+    background-position : 30%;
+}
+
+.sec_01_wrapper .slide_4 {
+    background-position: 40%;
+}
+
+
+
+.sec_01_wrapper .btns a {
+    display: none;
+}
+
+.sec_01_wrapper .btns a.active {
+    width: 100%;
+}
+
+
+
+/* section-02 */
+
+.sec_02 .container {
+    flex-direction: column;
+}
+
+.sec_02 .container::before {
+    width: 90%;
+    height: 0;
+    background-color: transparent;
+    left: 0;
+}
+
+.sec_02 article.right {
+    width: 100%;
+    height: auto;
+    order: -1;
+}
+
+.sec_02 article.left {
+    width: 100%;
+}
+
+.sec_02 article.left h2 {
+    margin: 1.25rem 0 0;
+}
+
+.sec_02 article.left .txt {
+    padding: 0;
+    margin: 1.25rem 0 2.5rem;
+}
+
+.sec_02 article.left .txt::before {
+    top: -0.625rem;
+    width: 100%;
+}
+
+.sec_02 article.left .txt_wrapper {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.sec_02 .swiper-wrapper {
+    height: 35rem;
+}
+
+/* section-03 */
+
+.sec_03 {
+    padding: 0 0 5rem;
+}
+
+.sec_03 .content-wrapper {
+    flex-direction: column;
+}
+
+.sec_03 .tabs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.sec_03 .tab-item {
+    width: 6rem;
+    height: 6rem;
+}
+
+.sec_03 .tab-item:nth-child(2n) {
+    margin : 0.5rem;
+}
+
+.sec_03 .contents-container {
+    width: 100%;
+}
+
+.sec_03 .content {
+    display: none;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.sec_03 .swiper {
+    width: 100%;
+    margin: 0 auto;
+    transform: translateX(0);
+}
+
+.sec_03 .swiper-wrapper {
+    width: 100%;
+    height: 38rem;
+    margin: 2rem 0 0;
+}
+
+
+.sec_03 .product-wrapper img {
+    max-width: 25rem;
+}
+
+.sec_03 .product_content_wrapper {
+    flex-direction: column;
+    margin: 1rem 0 ;
+    text-align: center;
+}
+
+.sec_03 .product_content_wrapper .product_txt {
+    margin: 0 auto;
+
+}
+
+.sec_03 .product_content_wrapper .product_txt p:last-child {
+    letter-spacing: 0;
+}
+
+.sec_03 .product_color {
+    order: -1;
+    margin: 0 auto 0.4rem;
+}
+
+
+
+.sec_03 .moreBtn::after {
+    width: 11rem;
+    left: unset;
+    right: 1rem;
+}
+
+
+/* section-04 */
+
+.sec_04 {
+    height: 70vh;
+    background-position: center;
+}
+
+.sec_04 .txt  {
+    width: 28rem;
+}
+
+.sec_04 .txt p {
+    margin: 3rem 0 5rem;
+}
+
+.sec_04 a.explore {
+    color: var(--white-color);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+
+/* section-05 */
+
+
+.sec_05 article {
+    width: 90%;
+    flex-direction: column;
+}
+
+.sec_05 article .left {
+    margin-bottom: 0.8rem;
+}
+
+.sec_05 article .left,
+.sec_05 article .right {
+    width: 100%;
+    height: 20rem;
+    display: block
+}
+
+.sec_05 article .right img {
+    height: auto; 
+    justify-content: center;
+}
+
+
+/* section-06  */
+
+.sec_06 article {
+    width: 100%;
+    flex-direction: column;
+}
+
+.sec_06 article .box {
+    width: 100%;
+    justify-content: space-between;
+    margin: 1rem 0 0;
+    height: 1.5rem;
+}
+
+.sec_06 article .box input {
+    width: 70%;
+    height: 1.5rem;
+    margin: 0;
+}
+
+.sec_06 article .subscribe_btn {
+    width: 28%;
+    padding: 0 1rem;
+}
+
+
+/* footer */
+
+
+footer .inner {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .left {
+    display: none;
+}

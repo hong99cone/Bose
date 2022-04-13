@@ -1,0 +1,180 @@
+@charset  'utf-8';
+
+* {
+    font-size: 12px;
+}
+
+body {
+    min-width: 100%;
+}
+
+.inner {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* navbar */
+
+.gnb {
+    display: flex;
+    justify-content: space-between;
+    padding: 0; 
+}
+
+.gnb .mobile_logo {
+    display: block;
+    margin-left: 1rem;
+}
+
+.gnb .menu {
+    display: none;
+}
+
+.gnb .menu .logo {
+    display: block;
+}
+
+.gnb .icons  {
+    margin-right: 1.25rem;
+}
+
+
+.gnb .icons .map {
+    font-size: 2rem;
+}
+
+/* navbar menu_toogle */
+
+.main_menu {
+    width: 100%;
+}
+
+.main_menu .main > li {
+    height: 3rem;
+}
+
+.main_menu .main > li::before {
+    display: none;
+}
+
+.main_menu .main > li ,
+.main_menu .main > li >a{
+    text-align: center;
+    font-size: var(--font-medium) ;
+}
+
+
+/* section-01 */
+
+
+
+.sec_01 .article_wrapper {
+    flex-direction: column;
+}
+
+.sec_01 article {
+    width: 100%;
+}
+
+.sec_01 article h2 {
+    font-weight: 200;
+    text-align: center;
+    position: unset;
+    opacity: 0.5;
+}
+
+.sec_01 article.on h2 {
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sec_01.bg_1,
+.sec_01.bg_2,
+.sec_01.bg_3 {
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* section2-4 공통부분*/
+.container {
+    padding: 48rem 0 5rem;
+}
+
+.wrapper .txt_wrapper h1 {
+    font-size: var(--font-large);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+}
+
+.wrapper .txt_wrapper p {
+    width: 100%;
+    font-weight: 100;
+    min-width: unset;
+}
+
+.wrapper .btn {
+    display: block;
+    text-align: center;
+}
+
+
+.table table {
+    width: 100%;
+    min-width: unset;
+}
+
+
+/* sec 2-4  bg*/
+.sec_02 {
+    background-size: 108rem;
+    background-position: 60% top ;
+}
+
+.sec_03 {
+    background-size: 100rem;
+    background-position: 85% top ;
+}
+
+.sec_04 {
+    background-size: 110rem;
+    background-position: 80% top ;
+}
+
+.sec_04 .wrapper .txt_wrapper p {
+    width: 100%;
+}
+
+/* section-05 */
+
+.sec_05 {
+    min-height: auto;
+}
+
+.sec_05 .txt {
+    width: 100%;
+}
+
+.sec_05 .txt p {
+    width: 65%;
+    text-align: center;
+}
+
+
+/* footer */
+
+
+footer .inner {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .left {
+    display: none;
+}
