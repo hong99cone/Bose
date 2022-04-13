@@ -57,7 +57,7 @@
 <img src="README__img/bose_UIdesign.png" style="width:850px">
 
 자세한 사항은 링크를 통해 확인하실수 있습니다.  
-[Wireframe](http://hong99cone.github.io/Bose) / [UI Design](http://hong99cone.github.io/Bose)
+[Wireframe](https://www.figma.com/file/I5KtNfhcuJyg1tDndjo4cI/?node-id=0%3A1) / [UI Design](https://www.figma.com/file/I5KtNfhcuJyg1tDndjo4cI/?node-id=2%3A2)
 
 </br>
 </br>
@@ -69,4 +69,4 @@
 <img src="README__img/bose_UI.png" style="width:850px">
 
 자세한 사항은 링크를 통해 확인하실수 있습니다.  
-[UI 정의서](http://hong99cone.github.io/Bose) 
+[UI 정의서](https://www.figma.com/file/I5KtNfhcuJyg1tDndjo4cI/?node-id=2%3A952) 
