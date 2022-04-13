@@ -24,7 +24,7 @@
 </br>
 
 
-**[Website is here!](http://hong99cone.github.io/Bose){:target="_blank"}**
+**<a href="http://hong99cone.github.io/Bose" target="_blank">Website is here! </a>**
 
 * * *
 </br>
@@ -56,8 +56,9 @@
 <img src="README__img/bose_UIdesign.png" style="width:850px">
 
 자세한 사항은 링크를 통해 확인하실수 있습니다.  
-[Wireframe](https://www.figma.com/file/I5KtNfhcuJyg1tDndjo4cI/?node-id=0%3A1){:target="_blank"}
-/ [UI Design](https://www.figma.com/file/I5KtNfhcuJyg1tDndjo4cI/?node-id=2%3A2){:target="_blank"}
+<a href="https://www.figma.com/file/I5KtNfhcuJyg1tDndjo4cI/?node-id=0%3A1" target="_blank">Wireframe</a> / 
+<a href="https://www.figma.com/file/I5KtNfhcuJyg1tDndjo4cI/?node-id=2%3A2" target="_blank">UI Design</a>
+
 
 </br>
 </br>
@@ -69,4 +70,4 @@
 <img src="README__img/bose_UI.png" style="width:850px">
 
 자세한 사항은 링크를 통해 확인하실수 있습니다.  
-[UI 정의서](https://www.figma.com/file/I5KtNfhcuJyg1tDndjo4cI/?node-id=2%3A952){:target="_blank"}
+<a href="https://www.figma.com/file/I5KtNfhcuJyg1tDndjo4cI/?node-id=2%3A952" target="_blank">UI정의서</a>
