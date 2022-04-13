@@ -300,19 +300,19 @@ ul {
 
 
 .sec_01.bg_1 {
-    background: url(/img/sub01_sec01-1.png) rgba(0, 0, 0, 1) no-repeat center;
+    background: url(../img/sub01_sec01-1.png) rgba(0, 0, 0, 1) no-repeat center;
     background-size: contain;
     transition: all 0.3s ease-in;
 }
 
 .sec_01.bg_2 {
-    background: url(/img/sub01_sec01-2.png) rgba(0, 0, 0, 1) no-repeat center;
+    background: url(../img/sub01_sec01-2.png) rgba(0, 0, 0, 1) no-repeat center;
     background-size: contain;
     transition: all 0.3s ease-in;
 }
 
 .sec_01.bg_3 {
-    background: url(/img/sub01_sec01-3.png) rgba(0, 0, 0, 1) no-repeat center;
+    background: url(../img/sub01_sec01-3.png) rgba(0, 0, 0, 1) no-repeat center;
     background-size: contain;
     transition: all 0.3s ease-in;
 }
@@ -489,7 +489,7 @@ ul {
 
 
 .sec_02 {
-    background: url(/img/sub01_sec02.png) rgba(0,0,0,1) no-repeat;
+    background: url(../img/sub01_sec02.png) rgba(0,0,0,1) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -506,7 +506,7 @@ ul {
 /* section-03 */
 
 .sec_03 {
-    background: url(/img/sub01_sec03.png) rgba(0,0,0,1) no-repeat;
+    background: url(../img/sub01_sec03.png) rgba(0,0,0,1) no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
@@ -530,7 +530,7 @@ ul {
 /* section-04 */
 
 .sec_04 {
-    background: url(/img/sub01_sec04.png) rgba(0,0,0,1) no-repeat;
+    background: url(../img/sub01_sec04.png) rgba(0,0,0,1) no-repeat;
     background-position: center;
     background-attachment: fixed;
 }

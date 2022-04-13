@@ -322,18 +322,18 @@ a.explore:hover {
 
 
 .sec_01_wrapper .slide_2 {
-    background: url(/img/sec01-01-1920.jpg) no-repeat;
+    background: url(../img/sec01-01-1920.jpg) no-repeat;
     background-size: cover;
     background-color: var(--primary-black-color);
 }
 
 .sec_01_wrapper .slide_3 {
-    background: url(/img/sec01-02-1920.jpg) no-repeat;
+    background: url(../img/sec01-02-1920.jpg) no-repeat;
     background-color: var(--primary-black-color);
 }
 
 .sec_01_wrapper .slide_4 {
-    background: url(/img/sec01-03-1920.jpg) no-repeat;
+    background: url(../img/sec01-03-1920.jpg) no-repeat;
     background-size: cover;
     background-color: var(--primary-black-color);
 }
@@ -543,17 +543,17 @@ a.explore:hover {
 
 
 .sec_02 article.right .swiper-slide.one {
-    background: url(/img/sec_02-1.png) no-repeat;
+    background: url(../img/sec_02-1.png) no-repeat;
     background-size: cover;
 }
 
 .sec_02 article.right .swiper-slide.two {
-    background: url(/img/sec_02-2.png) no-repeat;
+    background: url(../img/sec_02-2.png) no-repeat;
     background-size: cover;
 }
 
 .sec_02 article.right .swiper-slide.three {
-    background: url(/img/sec_02-3.png) no-repeat;
+    background: url(../img/sec_02-3.png) no-repeat;
     background-size: cover;
 }
 
@@ -574,37 +574,37 @@ a.explore:hover {
 
 
 .sec_03.bg1 {
-    background: url(/img/sec03_sports_bg.png) var(--primary-black-color);
+    background: url(../img/sec03_sports_bg.png) var(--primary-black-color);
     background-size: cover;
 }
 
 .sec_03.bg2 {
-    background: url(/img/sec03_work_bg.png) var(--primary-black-color);
+    background: url(../img/sec03_work_bg.png) var(--primary-black-color);
     background-size: cover;
 }
 
 .sec_03.bg3 {
-    background: url(/img/sec03_outdoor._bg.png) var(--primary-black-color);
+    background: url(../img/sec03_outdoor._bg.png) var(--primary-black-color);
     background-size: cover;
 }
 
 .sec_03.bg4 {
-    background: url(/img/sec03_earbuds_bg.png) var(--primary-black-color);
+    background: url(../img/sec03_earbuds_bg.png) var(--primary-black-color);
     background-size: cover;
 }
 
 .sec_03.bg5 {
-    background: url(/img/sec03_sunglasses_bg.png) var(--primary-black-color);
+    background: url(../img/sec03_sunglasses_bg.png) var(--primary-black-color);
     background-size: cover;
 }
 
 .sec_03.bg6 {
-    background: url(/img/sec03_headphone_bg.png) var(--primary-black-color) no-repeat;
+    background: url(../img/sec03_headphone_bg.png) var(--primary-black-color) no-repeat;
     background-size: cover;
 }
 
 .sec_03.bg7 {
-    background: url(/img/sec03_speaker_bg.png) var(--primary-black-color) no-repeat;
+    background: url(../img/sec03_speaker_bg.png) var(--primary-black-color) no-repeat;
     background-size: cover;
 }
 
@@ -695,35 +695,35 @@ a.explore:hover {
 
 
 .sec_03 .tab-item.sports.active::after  {    
-    background: url(/img/sec03-sports-btn.png);
+    background: url(../img/sec03-sports-btn.png);
 }
 
 .sec_03 .tab-item.work.active::after  {
-    background: url(/img/sec03-work-btn.png);    
+    background: url(../img/sec03-work-btn.png);    
 }
 
 .sec_03 .tab-item.outdoor.active::after  {
-    background: url(/img/sec03-outdoor-btn.png);
+    background: url(../img/sec03-outdoor-btn.png);
 }
 
 .sec_03 .tab-item.earbuds.active::after  {
-    background: url(/img/sec03-earbuds-btn.png);
+    background: url(../img/sec03-earbuds-btn.png);
 }
 
 .sec_03 .tab-item.sunglasses.active::after  {
-    background: url(/img/sec03-sunglasses-btn.png);
+    background: url(../img/sec03-sunglasses-btn.png);
 }
 
 .sec_03 .tab-item.headphone.active::after  {
-    background: url(/img/sec03-headphone-btn.png);
+    background: url(../img/sec03-headphone-btn.png);
 }
 
 .sec_03 .tab-item.speaker.active::after  {
-    background: url(/img/sec03-speaker-btn.png);
+    background: url(../img/sec03-speaker-btn.png);
 }
 
 .sec_03 .tab-item.accessory.active::after  {
-    background: url(/img/sec03-acc-btn.png);
+    background: url(../img/sec03-acc-btn.png);
 }
 
 /* moreBtn */
@@ -921,7 +921,7 @@ a.explore:hover {
 .sec_04 {
     width: 100%;
     height: 100vh;
-    background: url(/img/sec04-1920.png) no-repeat;
+    background: url(../img/sec04-1920.png) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -965,7 +965,7 @@ a.explore:hover {
     content: "";
     width: 100%;
     height: 100%;
-    background: url(/img/background__bose-logo.png) no-repeat ;
+    background: url(../img/background__bose-logo.png) no-repeat ;
     background-attachment: fixed;
     background-size: contain;
     opacity: 0.1;
