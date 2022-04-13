@@ -18,11 +18,7 @@
 
 
    
- <img alt="Chrome" src ="https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png" style="width:30px">  
- <img alt="FF" src ="https://upload.wikimedia.org/wikipedia/commons/1/16/Firefox_logo%2C_2017.png" style="width:30px">  
- <img alt="Safari" src ="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Safari_browser_logo.svg/2057px-Safari_browser_logo.svg.png" style="width:30px"> 
- <img alt="Safari" src ="https://upload.wikimedia.org/wikipedia/ko/thumb/9/98/Microsoft_Edge_logo_%282019%29.svg/1200px-Microsoft_Edge_logo_%282019%29.svg.png" style="width:30px">  
- <img alt="Safari" src ="https://whale.naver.com/_resource/img/brand/brand_snstop.png" style="width:30px">  
+ <img alt="Chrome" src ="https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png" style="width:30px"> <img alt="FF" src ="https://upload.wikimedia.org/wikipedia/commons/1/16/Firefox_logo%2C_2017.png" style="width:30px"> <img alt="Safari" src ="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Safari_browser_logo.svg/2057px-Safari_browser_logo.svg.png" style="width:30px"> <img alt="Safari" src ="https://upload.wikimedia.org/wikipedia/ko/thumb/9/98/Microsoft_Edge_logo_%282019%29.svg/1200px-Microsoft_Edge_logo_%282019%29.svg.png" style="width:30px"> <img alt="Safari" src ="https://whale.naver.com/_resource/img/brand/brand_snstop.png" style="width:30px">  
 
 
 </br>
